@@ -33,6 +33,6 @@ class LoyalCustomer extends Customer {
   @override
   double getPurchaseAmount() {
     double discount = super._purchaseAmount * 0.1;
-    return super._purchaseAmount -= discount; 
+    return super._purchaseAmount - discount; 
   }
 }
